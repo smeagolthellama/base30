@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#ifdef _linux_
+#ifdef __linux
 #include "itoa.hpp"
 #endif
 
