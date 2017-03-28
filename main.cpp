@@ -1,5 +1,8 @@
 #include <iostream>
 #include <cstdlib>
+#ifdef _linux_
+#include "itoa.hpp"
+#endif
 
 using namespace std;
 
